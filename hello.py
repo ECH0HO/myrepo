@@ -1,4 +1,5 @@
-def hello():
-    print("hello, world!")
-hello()
+def hello(n):
+    print("hello, ", n, "!")
+hello('world')
+hello(input("Hello:"))
 input()
